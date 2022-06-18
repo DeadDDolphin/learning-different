@@ -126,7 +126,7 @@ const MainComponent = () => {
                         <p className="none-error-msg" id="k_error">Введите число!</p>
                         <Form.Label htmlFor='a-input'>A:</Form.Label>
                         <Form.Control type="text" className='a-input' id="a-input" onChange={changeA}></Form.Control>
-                        <p className="none-error-msg" id="a_error">Введите число взаимно простое с количеством символов в алфавите!</p>
+                        <p className="none-error-msg" id="a_error">Введите число!</p>
                     </Form.Group>
                     <Form.Group className="mb-3">
                         <Form.Label htmlFor='src-input'>Исходный текст:</Form.Label>
